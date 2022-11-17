@@ -58,8 +58,8 @@ app.use(
 	  resave: false,
 	  saveUninitialized: false,
 	  cookie: { 
-		//   sameSite:'none',
-		  secure: false }
+		  sameSite:'none',
+		  secure: true }
 	})
   );
 
