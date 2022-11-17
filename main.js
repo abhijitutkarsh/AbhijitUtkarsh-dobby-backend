@@ -152,6 +152,6 @@ app.post('/getData', async (req, res)=>{
 	res.json({payload: search});
 })
 
-app.listen( 3001, function () {
+app.listen( process.env.PORT || 3001, "0.0.0.0", function () {
 	console.log("server is live");
   });
