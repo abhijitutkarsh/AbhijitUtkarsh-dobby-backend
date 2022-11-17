@@ -123,7 +123,7 @@ app.post("/todo", upload.single("pic"), function (req, res) {
 
 	saveTodo(todo, function () {
 		// res.redirect('https://abhijit-dobby-front.herokuapp.com')
-		// res.redirect("https://abhijit-dobby-front.herokuapp.com/")
+		res.redirect("https://abhijit-dobby-front.herokuapp.com/")
 	})
 	res.json()
 
