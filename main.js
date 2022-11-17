@@ -41,7 +41,7 @@ const storage = multer.diskStorage({
 app.use(
 	cors({
 	  // origin: ["https://ecommerce370001.herokuapp.com"],
-	  origin:["https://abhijit-dobby-front.herokuapp.com/","http://localhost:3000"], 
+	  origin:["https://abhijit-dobby-front.herokuapp.com","http://localhost:3000"], 
 	  methods: ["GET", "POST"],
 	  credentials: true,
 	})
