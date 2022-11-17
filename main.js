@@ -115,15 +115,15 @@ function getUser(username, password, callback) {
 
 app.post("/todo", upload.single("pic"), function (req, res) {
 	console.log(req.body)
-	const todo = {
-		text: req.body.text,
-		pic: req.file.filename,
-		createdBy: req.session.user.email
-	}
+	// const todo = {
+	// 	text: req.body.text,
+	// 	pic: req.file.filename,
+	// 	createdBy: req.session.user.email
+	// }
 
-	saveTodo(todo, function () {
-		res.redirect('https://abhijit-dobby-front.herokuapp.com')
-	})
+	// saveTodo(todo, function () {
+	// 	res.redirect('https://abhijit-dobby-front.herokuapp.com')
+	// })
 	// res.json()
 
 })
