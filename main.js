@@ -114,7 +114,7 @@ function getUser(username, password, callback) {
 }
 
 app.post("/todo", upload.single("pic"), function (req, res) {
-	console.log(req.session)
+	console.log(req.file)
 	// const todo = {
 	// 	text: req.body.text,
 	// 	pic: req.file.filename,
