@@ -125,7 +125,7 @@ app.post("/todo", upload.single("pic"), function (req, res) {
 		// res.redirect('https://abhijit-dobby-front.herokuapp.com')
 		res.redirect("https://abhijit-dobby-front.herokuapp.com")
 	})
-	res.json()
+	// res.json()
 
 })
 function saveTodo(todo, callback) {
